@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="popup.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <button id="summarize-btn">Summarize Video</button>
+        <button id="increase-font-size" style="display: none">+</button>
+        <button id="decrease-font-size" style="display: none">-</button>
+        <span id="font-size-label" style="display: none">Text Size: 16px</span>
+        <div id="loading-spinner" class="loader"></div>
+        <div id="loading-message" class="loading-message">
+          Generating... this may take a few seconds...
+        </div>
+        <div id="summary" class="summary-container" style="display: none"></div>
+      </div>
+    </div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
