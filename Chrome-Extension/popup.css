@@ -42,7 +42,6 @@ body {
   font-size: 16px; /* Adjust the font size as needed */
 }
 
-/* Add this to your popup.css file */
 .loader {
   border: 4px solid rgba(255, 255, 255, 0.3);
   border-top: 4px solid #0073e6;
@@ -62,7 +61,6 @@ body {
   }
 }
 
-/* Add this to your popup.css file */
 .loading-message {
   font-size: 14px;
   color: #555;
