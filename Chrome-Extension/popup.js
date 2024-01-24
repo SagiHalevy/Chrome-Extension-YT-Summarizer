@@ -36,17 +36,16 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   increaseFontSizeBtn.addEventListener("click", () => {
-    fontSize += increaseAmount; // You can adjust the step size as needed
+    fontSize += increaseAmount;
     updateFontSize();
   });
   // Button to decrease font size
   decreaseFontSizeBtn.addEventListener("click", () => {
-    fontSize -= increaseAmount; // You can adjust the step size as needed
+    fontSize -= increaseAmount; 
     updateFontSize();
   });
   function updateFontSize() {
     // Function to update the font size in the summary container
-    // Ensure the font size stays within the limits
     if (fontSize < minFontSize) {
       fontSize = minFontSize;
     } else if (fontSize > maxFontSize) {
